@@ -1,0 +1,179 @@
+.index-dv{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20vh;
+    background: rgba(135,206,235,0.5);
+    padding: 30px;
+    border-radius: 50px;
+}
+.index-dv input{
+    width: 250px;
+    margin: 8px;
+    height: 25px;
+    text-align: center;
+    outline: none;
+
+}
+.index-dv select{
+    width: 250px;
+    margin: 8px;
+    height: 25px;
+}
+.index-dv button{
+    width: 200px;
+    height: 30px;
+    background: black;
+    color: white;
+    cursor: pointer;
+    margin: 8px;
+}
+.index-bdy{
+
+    background-image: url("../img/bg.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #464646;
+}
+.index-dv span{
+    letter-spacing: 1px;
+}
+.home-div{
+    margin-top: 20vh;
+    width: 500px;
+    padding: 30px;
+    background: rgba(216, 0, 0,0.5);
+    border-radius: 50px;
+
+}
+.home-body{
+    background-image: url("../img/home.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #464646;
+}
+.home-div button{
+    width: 120px;
+    height: 30px;
+    background: black;
+    color: white;
+    cursor: pointer;
+}
+.home-div textArea{
+    width: 250px;
+    height: 150px;
+}
+.home-div select{
+    width: 250px;
+    height: 30px;
+}
+
+.home-div span{
+    margin: 15px;
+    margin-bottom:  15px;
+    letter-spacing: 1px;
+    color: white;
+}
+.chat-body{
+    color: white;
+    overflow: hidden;
+
+}
+.chat-ba{
+    background-image: url("../img/chatbg.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #464646;
+    -webkit-filter: blur(5px); 
+    filter: blur(5px);
+    width: 100vw;
+    height: 100vh;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    position: absolute;
+
+}
+.view-div{
+    background-image: url("../img/chat.jpg");
+    width: 600px;
+    height: 95vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: contain;
+
+}
+.chat-div-msg{
+    margin-top: 50px;
+    padding: 30px;
+    overflow: scroll;
+    overflow-x: hidden;
+    height: 600px;
+}
+.sender{
+    background-color: black;
+    border-radius: 50px;
+    padding: 15px;
+    margin: 12px;
+    width: 250px;
+    margin-left: -40%;
+
+
+
+
+}
+.resever{
+    background-color:#0066cc;
+    border-radius: 50px;
+    padding: 15px;
+    margin: 12px;
+    width: 250px;
+    margin-left: 40%;
+}
+.view-div button{
+    width: 150px;
+    height: 50px;
+    color: white;
+    cursor: pointer;
+}
+.send{
+    background-color:  green;
+}
+.si-o{
+    background-color: red;
+}
+small{
+    color: #666666;
+}
+.smal-colr{
+    color: #cccccc;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
